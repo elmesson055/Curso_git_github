@@ -1,0 +1,26 @@
+# Inicializar um novo repositório local
+git init
+
+# Para ver Status
+git status
+
+# Para limpar os comands line
+CLS
+
+# Adicionar todos os arquivos ao stage
+git add .
+
+# Para Salvar o arquivo
+CTRL + S
+
+# Commit das alterações
+git commit -m "Primeira commit"
+
+# Criar um novo repositório no GitHub e obter a URL
+# (Exemplo: https://github.com/seu-usuario/seu-repositorio.git)
+
+# Adicionar o repositório remoto
+git remote add origin https://github.com/seu-usuario/seu-repositorio.git
+
+# Fazer o push das alterações
+git push -u origin main

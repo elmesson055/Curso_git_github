@@ -1,0 +1,54 @@
+1-Crie uma pasta REPO Ex: Nomedapasta
+
+# Inicializar um novo repositório local
+git init
+
+# Adicionar todos os arquivos ao stage
+git add .
+
+# Commit das alterações
+git commit -m "Primeira commit"
+
+# Criar um novo repositório no GitHub e obter a URL
+# (Exemplo: https://github.com/seu-usuario/seu-repositorio.git)
+
+# Adicionar o repositório remoto
+git remote add origin https://github.com/seu-usuario/seu-repositorio.git
+
+# Fazer o push das alterações
+git push -u origin main
+
+
+*************************************
+Comandos para gerenciar o histórico de commits
+git log: Exibe o histórico de commits de forma detalhada, mostrando a mensagem de commit, autor, data e outras informações relevantes.
+git show <commit-hash>: Mostra o conteúdo de um commit específico.
+git diff <commit1> <commit2>: Mostra as diferenças entre dois commits.
+git revert <commit-hash>: Desfaz as alterações de um commit específico, criando um novo commit.
+git reset <commit-hash>: Move o ponteiro HEAD para um commit específico, descartando as alterações posteriores.
+Comandos para trabalhar com branches
+git branch -d <branch-name>: Exclui uma branch local.
+git branch -r: Lista as branches remotas.
+git checkout -b <new-branch> <start-point>: Cria uma nova branch e muda para ela.
+git merge <branch-name>: Mescla uma branch com a branch atual.
+git rebase <base-branch>: Rebaseia uma branch em outra, reescrevendo o histórico de commits.
+Comandos para interagir com repositórios remotos
+git remote -v: Lista os repositórios remotos configurados.
+git fetch: Baixa as informações mais recentes de um repositório remoto, mas não as mescla automaticamente.
+git push <remote> <branch>: Envia as alterações locais para um repositório remoto.
+git pull: Combina git fetch e git merge em um único comando.
+Comandos para gerenciar arquivos
+git rm <file>: Remove um arquivo do staging area e do diretório de trabalho.
+git mv <old-file> <new-file>: Move ou renomeia um arquivo.
+git stash: Temporariamente guarda as alterações não commitadas.
+git stash pop: Restaura as últimas alterações guardadas com git stash.
+Comandos para outras tarefas
+git tag: Cria, lista ou exclui tags.
+git bisect: Localiza o commit que introduziu um bug.
+git cherry-pick <commit-hash>: Aplica um commit específico de uma branch em outra.
+Exemplos de uso:
+
+Ver o histórico dos últimos 5 commits: git log -5
+Criar uma nova branch chamada 'feature' a partir do branch 'master': git checkout -b feature master
+Mesclar a branch 'feature' com a branch 'master': git merge feature
+Remover a branch 'feature': git branch -d feature
