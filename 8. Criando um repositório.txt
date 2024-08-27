@@ -14,7 +14,7 @@ git add .
 CTRL + S
 
 # Commit das alterações
-git commit -m "Primeira commit"
+git commit -m namedoarquivo.txt "Primeira commit"
 
 # Criar um novo repositório no GitHub e obter a URL
 # (Exemplo: https://github.com/seu-usuario/seu-repositorio.git)
