@@ -33,3 +33,8 @@ Your branch is ahead of 'origin/main' by 1 commit.
 
 # Para sincronizar informações no GitHub
 git pull
+
+# Clonando Repositorios no GitHub
+
+Crie uma pasta Ex:Clone_Repositorio_Curso_git_github
+Abra com GIT : Botão Direito do mouse selecione Open Git Bash

@@ -28,7 +28,9 @@ Opções Adicionais:
 
 Especificar o diretório de destino:
 Bash
-git clone https://github.com/meu-usuario/meu-projeto.git meu-projeto-local
+git clone https://github.com/meu-usuario/meu-projeto.git meu-projeto-local .
+
+Use ponto "." para clonar os arquivos da pasta principal
 Use o código com cuidado.
 
 Clonar um repositório específico:
