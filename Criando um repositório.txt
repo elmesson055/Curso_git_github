@@ -24,3 +24,12 @@ git remote add origin https://github.com/seu-usuario/seu-repositorio.git
 
 # Fazer o push das alterações
 git push -u origin main
+
+
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits) 
+
+
+# Para sincronizar informações no GitHub
+git pull
