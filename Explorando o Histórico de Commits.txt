@@ -1,0 +1,101 @@
+O Comando git log: Explorando o Histórico de Commits
+O comando git log é uma ferramenta poderosa no Git que permite visualizar o histórico de commits de um repositório. Ele é essencial para entender as modificações feitas ao longo do tempo, identificar a causa de problemas e rastrear o desenvolvimento de um projeto.
+
+Sintaxe básica:
+Bash
+git log
+Use o código com cuidado.
+
+Essa sintaxe simples listará todos os commits, do mais recente para o mais antigo, mostrando informações como:
+
+Hash do commit: Um identificador único para cada commit.
+Autor: Nome e e-mail da pessoa que fez o commit.
+Data: Data e hora em que o commit foi feito.
+Mensagem do commit: Uma descrição concisa das alterações feitas.
+Opções Úteis para Refinar a Busca:
+Limitar o número de commits:
+
+Bash
+git log -n 5
+Use o código com cuidado.
+
+Mostra os últimos 5 commits.
+
+Mostrar apenas o hash e a mensagem:
+
+Bash
+git log --oneline
+Use o código com cuidado.
+
+Filtrar por autor:
+
+Bash
+git log --author="Seu Nome"
+Use o código com cuidado.
+
+Filtrar por data:
+
+Bash
+git log --since="2023-01-01" --until="2023-12-31"
+Use o código com cuidado.
+
+Filtrar por palavras-chave na mensagem:
+
+Bash
+git log --grep="corrigir bug"
+Use o código com cuidado.
+
+Mostrar as diferenças entre os commits:
+
+Bash
+git log -p
+Use o código com cuidado.
+
+Mostrar o gráfico de branches:
+
+Bash
+git log --graph --oneline --decorate
+Use o código com cuidado.
+
+Exemplos Práticos para Engenheiros de Dados:
+Identificar quando uma determinada coluna foi adicionada a uma tabela:
+Bash
+git log -p --grep="ALTER TABLE adiciona coluna"
+Use o código com cuidado.
+
+Encontrar commits relacionados a um bug específico:
+Bash
+git log --grep="bug #123"
+Use o código com cuidado.
+
+Verificar o histórico de modificações em um arquivo específico:
+Bash
+git log --follow arquivo.csv
+Use o código com cuidado.
+
+Comparar dois branches:
+Bash
+git log main...feature-nova
+Use o código com cuidado.
+
+Visualizando o Histórico de Forma Gráfica:
+Muitas ferramentas de linha de comando e interfaces gráficas oferecem visualizações mais intuitivas do histórico de commits, como:
+
+Gitk: Uma ferramenta gráfica incluída na maioria das distribuições Linux.
+GitHub: O próprio GitHub oferece uma interface visual para explorar o histórico.
+VSCode: Editores de código como o Visual Studio Code possuem extensões para visualizar o histórico de Git.
+Dicas Adicionais:
+Aliases: Crie aliases para comandos longos para facilitar o uso.
+.gitignore: Utilize o arquivo .gitignore para excluir arquivos e diretórios que não devem ser versionados.
+Branches: Crie branches para isolar diferentes funcionalidades e evitar conflitos.
+Tags: Use tags para marcar versões importantes do seu projeto.
+Em resumo:
+O comando git log é uma ferramenta indispensável para qualquer desenvolvedor, especialmente para engenheiros de dados que precisam rastrear as mudanças em seus projetos ao longo do tempo. Com as opções e exemplos apresentados, você poderá explorar o histórico de seus repositórios de forma eficiente e eficaz.
+
+Gostaria de explorar algum outro comando relacionado ao Git ou aprofundar algum dos tópicos mencionados?
+
+Possíveis tópicos para aprofundar:
+
+Comandos git bisect e git blame: Para encontrar a introdução de bugs e identificar o autor de uma determinada linha de código.
+Interagindo com o GitHub: Como enviar pull requests, criar issues e colaborar com outros desenvolvedores.
+Fluxos de trabalho avançados: Gitflow, GitHub Flow e outros.
